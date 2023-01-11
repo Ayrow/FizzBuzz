@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		948EDC48296EC388005D89E7 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948EDC47296EC388005D89E7 /* BackgroundImageView.swift */; };
 		94F152CD296D99F300F8075E /* FizzBuzzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F152CC296D99F300F8075E /* FizzBuzzApp.swift */; };
 		94F152D1296D99F400F8075E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F152D0296D99F400F8075E /* Assets.xcassets */; };
 		94F152D5296D99F400F8075E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F152D4296D99F400F8075E /* Preview Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		948EDC47296EC388005D89E7 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
 		94F152C9296D99F300F8075E /* FizzBuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FizzBuzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F152CC296D99F300F8075E /* FizzBuzzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzApp.swift; sourceTree = "<group>"; };
 		94F152D0296D99F400F8075E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -35,6 +37,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		948EDC49296EC38C005D89E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				948EDC4D296EC3C0005D89E7 /* MainViews */,
+				948EDC4C296EC3B4005D89E7 /* SupportingViews */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		948EDC4A296EC399005D89E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		948EDC4B296EC3A0005D89E7 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		948EDC4C296EC3B4005D89E7 /* SupportingViews */ = {
+			isa = PBXGroup;
+			children = (
+				948EDC47296EC388005D89E7 /* BackgroundImageView.swift */,
+			);
+			path = SupportingViews;
+			sourceTree = "<group>";
+		};
+		948EDC4D296EC3C0005D89E7 /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				94F152DD296D9C8700F8075E /* AboutView.swift */,
+				94F152DB296D9A1600F8075E /* MainView.swift */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
 		94F152C0296D99F300F8075E = {
 			isa = PBXGroup;
 			children = (
@@ -54,9 +96,10 @@
 		94F152CB296D99F300F8075E /* FizzBuzz */ = {
 			isa = PBXGroup;
 			children = (
+				948EDC4B296EC3A0005D89E7 /* ModelView */,
+				948EDC4A296EC399005D89E7 /* Model */,
+				948EDC49296EC38C005D89E7 /* View */,
 				94F152CC296D99F300F8075E /* FizzBuzzApp.swift */,
-				94F152DD296D9C8700F8075E /* AboutView.swift */,
-				94F152DB296D9A1600F8075E /* MainView.swift */,
 				94F152D0296D99F400F8075E /* Assets.xcassets */,
 				94F152D2296D99F400F8075E /* FizzBuzz.entitlements */,
 				94F152D3296D99F400F8075E /* Preview Content */,
@@ -144,6 +187,7 @@
 			files = (
 				94F152DC296D9A1600F8075E /* MainView.swift in Sources */,
 				94F152DE296D9C8700F8075E /* AboutView.swift in Sources */,
+				948EDC48296EC388005D89E7 /* BackgroundImageView.swift in Sources */,
 				94F152CD296D99F300F8075E /* FizzBuzzApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
