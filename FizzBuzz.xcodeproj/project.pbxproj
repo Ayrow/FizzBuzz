@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94715AC7296EE34B007B5047 /* FizzBuzzAlgViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94715AC6296EE34B007B5047 /* FizzBuzzAlgViewModel.swift */; };
 		948EDC48296EC388005D89E7 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948EDC47296EC388005D89E7 /* BackgroundImageView.swift */; };
 		948EDC4F296EC7CB005D89E7 /* NiceText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948EDC4E296EC7CB005D89E7 /* NiceText.swift */; };
 		948EDC51296EC844005D89E7 /* FizzBuzzView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948EDC50296EC844005D89E7 /* FizzBuzzView.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		94715AC6296EE34B007B5047 /* FizzBuzzAlgViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzAlgViewModel.swift; sourceTree = "<group>"; };
 		948EDC47296EC388005D89E7 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
 		948EDC4E296EC7CB005D89E7 /* NiceText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceText.swift; sourceTree = "<group>"; };
 		948EDC50296EC844005D89E7 /* FizzBuzzView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzView.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 		948EDC4B296EC3A0005D89E7 /* ModelView */ = {
 			isa = PBXGroup;
 			children = (
+				94715AC6296EE34B007B5047 /* FizzBuzzAlgViewModel.swift */,
 			);
 			path = ModelView;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			files = (
 				948EDC51296EC844005D89E7 /* FizzBuzzView.swift in Sources */,
 				94F152DC296D9A1600F8075E /* MainView.swift in Sources */,
+				94715AC7296EE34B007B5047 /* FizzBuzzAlgViewModel.swift in Sources */,
 				948EDC53296ECA7C005D89E7 /* CodeCreatorView.swift in Sources */,
 				948EDC4F296EC7CB005D89E7 /* NiceText.swift in Sources */,
 				948EDC55296ECB08005D89E7 /* FizzBuzzAlgModel.swift in Sources */,
