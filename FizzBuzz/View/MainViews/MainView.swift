@@ -15,7 +15,7 @@ struct MainView: View {
                     Label("FizzBuzz",
                            systemImage: "bubbles.and.sparkles")}
             
-            BackgroundText(text: "CodeCreatorView", color: .green)
+            CodeCreatorView()
                 .tabItem {
                     Label("Code",
                            systemImage: "note.text")}
