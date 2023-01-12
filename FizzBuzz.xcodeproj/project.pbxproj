@@ -18,6 +18,7 @@
 		94F152D5296D99F400F8075E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F152D4296D99F400F8075E /* Preview Assets.xcassets */; };
 		94F152DC296D9A1600F8075E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F152DB296D9A1600F8075E /* MainView.swift */; };
 		94F152DE296D9C8700F8075E /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F152DD296D9C8700F8075E /* AboutView.swift */; };
+		94F874AE2970037600840223 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F874AD2970037600840223 /* StringExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		94F152D4296D99F400F8075E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		94F152DB296D9A1600F8075E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		94F152DD296D9C8700F8075E /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		94F874AD2970037600840223 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		94F152CB296D99F300F8075E /* FizzBuzz */ = {
 			isa = PBXGroup;
 			children = (
+				94F874AC2970034B00840223 /* Extensions */,
 				948EDC4B296EC3A0005D89E7 /* ModelView */,
 				948EDC4A296EC399005D89E7 /* Model */,
 				948EDC49296EC38C005D89E7 /* View */,
@@ -128,6 +131,14 @@
 				94F152D4296D99F400F8075E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		94F874AC2970034B00840223 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				94F874AD2970037600840223 /* StringExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +213,7 @@
 			files = (
 				948EDC51296EC844005D89E7 /* FizzBuzzView.swift in Sources */,
 				94F152DC296D9A1600F8075E /* MainView.swift in Sources */,
+				94F874AE2970037600840223 /* StringExtensions.swift in Sources */,
 				94715AC7296EE34B007B5047 /* FizzBuzzAlgViewModel.swift in Sources */,
 				948EDC53296ECA7C005D89E7 /* CodeCreatorView.swift in Sources */,
 				948EDC4F296EC7CB005D89E7 /* NiceText.swift in Sources */,
